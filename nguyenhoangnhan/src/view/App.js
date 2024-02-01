@@ -1,19 +1,35 @@
 import logo from './logo.svg';
 import './App.scss';
 import Nav from './Nav/Nav';
+// import {
+//   BrowserRoute,
+//   Switch,
+//   Route,
+//   Link,
+// } from "react-router-dom"
+
 
 function App() {
   return (
+    // <BrowserRoute>
     <div className="App">
       <Nav />
       <header className="App-header">
 
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        {/* <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/users">
+              <Users />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch> */}
       </header>
     </div>
+    // </BrowserRoute>
   );
 }
 
